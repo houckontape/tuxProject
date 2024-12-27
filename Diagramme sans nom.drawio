@@ -53,8 +53,14 @@
         <mxCell id="g0BtnFO_dpMRY9GqC97I-8" value="configurer les serveurs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="150" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="g0BtnFO_dpMRY9GqC97I-10" target="NCSDp21wWOy1lbJ6YIA6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g0BtnFO_dpMRY9GqC97I-10" value="deployer des mises à jours" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="g0BtnFO_dpMRY9GqC97I-12" target="NCSDp21wWOy1lbJ6YIA6-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g0BtnFO_dpMRY9GqC97I-12" value="gérer les sauvegardes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="350" width="120" height="80" as="geometry" />
@@ -65,8 +71,14 @@
         <mxCell id="g0BtnFO_dpMRY9GqC97I-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="g0BtnFO_dpMRY9GqC97I-1" target="g0BtnFO_dpMRY9GqC97I-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g0BtnFO_dpMRY9GqC97I-18" target="NCSDp21wWOy1lbJ6YIA6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g0BtnFO_dpMRY9GqC97I-18" value="surveiller les serveurs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g0BtnFO_dpMRY9GqC97I-19" target="NCSDp21wWOy1lbJ6YIA6-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g0BtnFO_dpMRY9GqC97I-19" value="action de bases" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="690" width="120" height="80" as="geometry" />
@@ -77,8 +89,14 @@
         <mxCell id="g0BtnFO_dpMRY9GqC97I-24" value="creer un modele de configuration" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="110" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g0BtnFO_dpMRY9GqC97I-25" target="NCSDp21wWOy1lbJ6YIA6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g0BtnFO_dpMRY9GqC97I-25" value="deployer une&amp;nbsp; configuration" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCSDp21wWOy1lbJ6YIA6-11" value="parck serveur" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
