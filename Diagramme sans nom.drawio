@@ -5,9 +5,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fxOWRYQQargrTOBfE-RS-1" value="user" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="160" height="180" as="geometry" />
+          <mxGeometry x="80" y="40" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-2" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+login:string&lt;/div&gt;&lt;div&gt;+password:string&lt;/div&gt;&lt;div&gt;+createdAt:date&lt;/div&gt;&lt;div&gt;+updatedAt:string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-1">
+        <mxCell id="fxOWRYQQargrTOBfE-RS-2" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+login:string&lt;/div&gt;&lt;div&gt;+password:string&lt;/div&gt;&lt;div&gt;+createdAt:date&lt;/div&gt;&lt;div&gt;+updatedAt:string&lt;br&gt;&lt;/div&gt;&lt;div&gt;+roleId&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-1">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="fxOWRYQQargrTOBfE-RS-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-1">
@@ -16,17 +16,32 @@
         <mxCell id="fxOWRYQQargrTOBfE-RS-4" value="&lt;div&gt;+ ifExiste()&lt;/div&gt;&lt;div&gt;+ passwordOk()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-1">
           <mxGeometry y="138" width="160" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-5" value="Authentification" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="160" height="144" as="geometry" />
+        <mxCell id="fxOWRYQQargrTOBfE-RS-15" value="Role" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-5">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        <mxCell id="fxOWRYQQargrTOBfE-RS-16" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+name:string&lt;/div&gt;&lt;div&gt;+code:int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-15">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-6" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-5">
-          <mxGeometry y="34" width="160" height="84" as="geometry" />
+        <mxCell id="fxOWRYQQargrTOBfE-RS-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-15">
+          <mxGeometry y="100" width="160" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-5">
-          <mxGeometry y="118" width="160" height="26" as="geometry" />
+        <mxCell id="fxOWRYQQargrTOBfE-RS-18" value="+returnCode()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-15">
+          <mxGeometry y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fxOWRYQQargrTOBfE-RS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.013;exitY=0.856;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="fxOWRYQQargrTOBfE-RS-2" target="fxOWRYQQargrTOBfE-RS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxOWRYQQargrTOBfE-RS-20" value="Profil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="fxOWRYQQargrTOBfE-RS-21" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+firstNalme:string&lt;/div&gt;&lt;div&gt;+lastName:string&lt;/div&gt;&lt;div&gt;+phone:int&lt;/div&gt;&lt;div&gt;+email:string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-20">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fxOWRYQQargrTOBfE-RS-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-20">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fxOWRYQQargrTOBfE-RS-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-20">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
