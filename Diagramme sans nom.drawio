@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fxOWRYQQargrTOBfE-RS-1" value="user" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="50" width="160" height="180" as="geometry" />
+          <mxGeometry x="30" y="50" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fxOWRYQQargrTOBfE-RS-2" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+login:string&lt;/div&gt;&lt;div&gt;+password:string&lt;/div&gt;&lt;div&gt;+createdAt:date&lt;/div&gt;&lt;div&gt;+updatedAt:string&lt;br&gt;&lt;/div&gt;&lt;div&gt;+roleId:int&lt;/div&gt;&lt;div&gt;+profileId:int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-1">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
@@ -28,18 +28,13 @@
         <mxCell id="fxOWRYQQargrTOBfE-RS-18" value="+returnCode()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-15">
           <mxGeometry y="110" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fxOWRYQQargrTOBfE-RS-16">
+        <mxCell id="fxOWRYQQargrTOBfE-RS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.006;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fxOWRYQQargrTOBfE-RS-2" target="fxOWRYQQargrTOBfE-RS-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="160" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fxOWRYQQargrTOBfE-RS-27" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fxOWRYQQargrTOBfE-RS-19">
-          <mxGeometry x="0.5143" y="-2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="230" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fxOWRYQQargrTOBfE-RS-20" value="Profil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="160" height="164" as="geometry" />
+          <mxGeometry x="400" y="200" width="160" height="164" as="geometry" />
         </mxCell>
         <mxCell id="fxOWRYQQargrTOBfE-RS-21" value="&lt;div&gt;+id:int&lt;/div&gt;&lt;div&gt;+user:id&lt;br&gt;&lt;/div&gt;&lt;div&gt;+firstNalme:string&lt;/div&gt;&lt;div&gt;+lastName:string&lt;/div&gt;&lt;div&gt;+phone:int&lt;/div&gt;&lt;div&gt;+email:string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fxOWRYQQargrTOBfE-RS-20">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
